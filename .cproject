@@ -51,7 +51,7 @@
 								<option id="gnu.c.link.option.nostart.307689156" name="Do not use standard start files (-nostartfiles)" superClass="gnu.c.link.option.nostart" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<option id="gnu.c.link.option.other.1238005790" name="Other options (-Xlinker [option])" superClass="gnu.c.link.option.other" useByScannerDiscovery="false"/>
 								<option id="gnu.c.link.option.noshared.240412685" name="No shared libraries (-static)" superClass="gnu.c.link.option.noshared" useByScannerDiscovery="false" value="false" valueType="boolean"/>
-								<option id="gnu.c.link.option.ldflags.1629679922" name="Linker flags" superClass="gnu.c.link.option.ldflags" useByScannerDiscovery="false" value="-Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group -gc-sections -mthumb -mcpu=cortex-m4 -T ../STM32F429ZITx_FLASH.ld ../startup/startup_stm32f429xx.o" valueType="string"/>
+								<option id="gnu.c.link.option.ldflags.1629679922" name="Linker flags" superClass="gnu.c.link.option.ldflags" useByScannerDiscovery="false" value="-Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group -gc-sections -mthumb -mcpu=cortex-m4 -T ../STM32F429ZITx_FLASH.ld" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.424050914" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>

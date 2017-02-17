@@ -35,7 +35,7 @@ all: Stander-Cross-GCC.elf
 Stander-Cross-GCC.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross GCC Linker'
-	arm-none-eabi-gcc -Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group -gc-sections -mthumb -mcpu=cortex-m4 -T ../STM32F429ZITx_FLASH.ld ../startup/startup_stm32f429xx.o -o "Stander-Cross-GCC.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -Wl,--start-group -lc -lgcc -lnosys -Wl,--end-group -gc-sections -mthumb -mcpu=cortex-m4 -T ../STM32F429ZITx_FLASH.ld -o "Stander-Cross-GCC.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
